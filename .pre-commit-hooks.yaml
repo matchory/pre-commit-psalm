@@ -1,0 +1,7 @@
+- id: psalm
+  name: Psalm
+  description: Run Psalm to statically analyze a PHP code base.
+  entry: hooks/psalm.sh
+  language: script
+  files: \.php$
+  pass_filenames: true
